@@ -24,22 +24,22 @@ The final dataset consists of several musical attributes:
 ## Installation & Setup
 
 1. **Clone the repository** and navigate to the project folder.
-2. **Create a Virtual Environment**:
+2. **Create a Virtual Environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate  # macOS/Linux
    venv\\Scripts\\activate     # Windows
-   Install Dependencies:
    ```
-
-Bash
-pip install pandas matplotlib seaborn jupyterlab
-Launch the Analysis:
-
-Bash
-jupyter lab
-Data Cleaning Process
-To ensure an "Exceeds Expectations" grade, the following cleaning steps were implemented:
+3. **Install Dependencies:**
+   ```bash
+   pip install pandas matplotlib seaborn jupyterlab
+   ```
+4. **Launch the Analysis:**
+   `bash
+    jupyter lab
+    `
+   Data Cleaning Process
+   To ensure an "Exceeds Expectations" grade, the following cleaning steps were implemented:
 
 Encoding Management: Used latin-1 encoding to handle non-standard characters in song titles (e.g., accents).
 
