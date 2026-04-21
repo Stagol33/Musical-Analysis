@@ -35,11 +35,11 @@ The final dataset consists of several musical attributes:
    pip install pandas matplotlib seaborn jupyterlab
    ```
 4. **Launch the Analysis:**
-   `bash
+    ```bash
     jupyter lab
-    `
-   Data Cleaning Process
-   To ensure an "Exceeds Expectations" grade, the following cleaning steps were implemented:
+    ```
+Data Cleaning Process
+To ensure an "Exceeds Expectations" grade, the following cleaning steps were implemented:
 
 Encoding Management: Used latin-1 encoding to handle non-standard characters in song titles (e.g., accents).
 
